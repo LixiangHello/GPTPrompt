@@ -53,8 +53,10 @@ def main():
                  )
 
     if input_text:
-        pc.copy(text)
-        st.success('已复制到剪贴板.')
-
+        try:
+            pc.copy(text)
+            st.success('已复制到剪贴板.')
+        except Exception as e:
+            st.error(e)
 
 main()
