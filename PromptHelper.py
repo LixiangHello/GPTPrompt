@@ -59,5 +59,6 @@ def main():
         except Exception as e:
             st.warning('Failed to AutoCopy.Please copy above context manually.')
             st.error(e)
-
+    
+    st.markdown('<button onclick="copyToClip('内容')"> Copy </button>')
 main()
