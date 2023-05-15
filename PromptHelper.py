@@ -57,7 +57,7 @@ def main():
             pc.copy(text)
             st.success('已复制到剪贴板.')
         except Exception as e:
-            st.warn('Failed to AutoCopy.Please copy above context manually.')
+            st.warning('Failed to AutoCopy.Please copy above context manually.')
             st.error(e)
 
 main()
