@@ -1,0 +1,4 @@
+xsel
+xclip
+pygtk
+PyQt5
