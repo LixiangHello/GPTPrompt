@@ -1,6 +1,6 @@
 import streamlit as st
 import clipboard as pc
-
+import xerox
 # 功能列表及其对应的prompt
 func_prompts = {
     '英文学术润色': 'Below is a paragraph from an academic paper. '
@@ -54,7 +54,8 @@ def main():
 
     if input_text:
         try:
-            pc.copy(text)
+            # pc.copy(text)
+            xerox.copy(text)
             st.success('已复制到剪贴板.')
         except Exception as e:
             st.warning('Failed to AutoCopy.Please copy above context manually.')
