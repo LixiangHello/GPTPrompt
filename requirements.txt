@@ -1,5 +1,5 @@
 clipboard
 pyperclip
-gtk
-PyQt4
+# gtk
+# PyQt4
 xerox
