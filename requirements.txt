@@ -1,4 +1,4 @@
 clipboard
 pyperclip
-pygtk
-PyQt5
+gtk
+PyQt4
