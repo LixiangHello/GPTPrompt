@@ -1,2 +1,3 @@
 xsel
 xclip
+gir1.2-gdkpixbuf-2.0
