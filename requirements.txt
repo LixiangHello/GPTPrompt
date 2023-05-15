@@ -2,3 +2,4 @@ clipboard
 pyperclip
 gtk
 PyQt4
+xerox
