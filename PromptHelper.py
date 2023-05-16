@@ -57,8 +57,7 @@ def main():
             pc.copy(text)
             st.success('已复制到剪贴板.')
         except Exception as e:
-            st.warning('Failed to AutoCopy.Please copy above context manually.')
+            st.warning('Failed to AutoCopy.Please copy above context manually.', icon='⚠️')
             st.error(e)
-    s = "<button > Copy </button>"
-    st.markdown(s)
+
 main()
